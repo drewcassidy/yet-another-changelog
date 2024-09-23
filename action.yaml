@@ -4,6 +4,10 @@ branding:
   icon: file-text
   color: orange
 
+x-env-inputs:
+  foo:
+  bar:
+
 inputs:
   changelog-path:
     description: "Path of the changelog markdown file"
